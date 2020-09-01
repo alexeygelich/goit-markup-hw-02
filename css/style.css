@@ -5,6 +5,7 @@
   --white-color: #ffffff;
   --bgc-footer: #2f303a;
   --footer-color: color: rgba(255, 255, 255, 0.6);
+  --btn-filter-color: #F5F4FA;
 }
 
 /* Base */
@@ -37,6 +38,15 @@ letter-spacing: 0.06em;
 
   background-color: var(--accent-color);
   color: var(--white-color);
+}
+
+.title {
+  font-size: 14px;
+font-weight: 700;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+  color: var(--title-color);
 }
 
 /* Header */
@@ -82,7 +92,7 @@ letter-spacing: 0.06em;
   background-color: var(--title-color);
 }
 
-.hero .title {
+.main-title {
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
@@ -94,15 +104,6 @@ text-transform: uppercase;
 
 /* Преимущества */
 
-.advantage .title {
-  font-size: 14px;
-font-weight: 700;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-
-  color: var(--title-color);
-}
-
 .advantage .text {
   line-height: 1.71;
 
@@ -111,31 +112,15 @@ letter-spacing: 0.03em;
 
 /* Чем мы занимаемся */
 
-.work .title {
-  font-weight: 700;
-font-size: 36px;
-line-height: 1.16;
-letter-spacing: 0.03em;
-
-  color: var(--title-color);
-}
 
 /* Команда */
-
-.team .title {
-  font-weight: 700;
-font-size: 36px;
-line-height: 1.16;
-letter-spacing: 0.03em;
-
-  color: var(--title-color);
-}
 
 .name {
   font-weight: 500;
 font-size: 16px;
 line-height: 1.18;
 letter-spacing: 0.03em;
+color: var(--title-color);
 }
 
 /* Footer */
@@ -164,6 +149,22 @@ letter-spacing: 0.03em;
 
 
 /* Portfolio */
+
+/* filter */
+
+.filter .button {
+  background-color: var(--btn-filter-color);
+  color: var(--title-color);
+  font-weight: 500;
+}
+
+.filter .button:hover, .filter .button:focus {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+  
+}
+
+/* Cards */
 
 .name-card {
   font-weight: 700;
